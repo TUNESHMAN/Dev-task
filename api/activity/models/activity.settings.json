@@ -69,6 +69,11 @@
     "price_es": {
       "type": "integer",
       "required": true
+    },
+    "users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "activity"
     }
   }
 }
